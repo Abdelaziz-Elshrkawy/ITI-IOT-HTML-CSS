@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#a8 input{
+    display: block;
+    margin: 3px;
+    border: 1px solid #7474744f;
+    border-radius: 4px;
+}
+
+#b8 p{
+    display: inline-block;
+}
+#c8{
+
+    text-align: center;
+    height: 300px;
+    border-radius: 20px;
+}
+#c8 img{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 30%;
+}
+
+#txt3{
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    width: 50%;
+    box-shadow: 0 2px 5px #747474;
+}
+
+
+
+/* ---------------challenge------------------ */
+
+#form1{
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+}
+#form1 input{
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+}
+#fname{
+    width: 40%;
+}
+#lname{
+    width: 40%;
+
+}
+#email{
+    margin: 10px 0;
+    width: 97%;
+}
+
+#form1 button{
+    width: 100%;
+    margin: auto;
+    background-color: #3874e9;
+    border: none;
+    color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+
+#form2{
+    width: 35%;
+    margin-left: 5px;
+}
+#form2 p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#form2 input{
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+
+#form2 button{
+    width: 45%;
+    padding: 10px;
+}
+#destination{
+    margin: 10px auto;
+}
+#request{
+    background-color: black;
+    color: #fff;
+    border: none;
+}
+#schedule{
+    border: none;
+    background-color: #f0f0f0;
+    margin-left: 10px;
+}

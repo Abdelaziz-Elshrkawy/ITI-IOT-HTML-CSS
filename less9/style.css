@@ -1,0 +1,133 @@
+#box1{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    margin: 5px 0;
+}
+
+#box2{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#form1{
+    border: 1px solid #7474745b;
+    width: 30%;
+    padding: 6px;
+}
+
+#youtube{
+    background-color: #000;
+    width: 40%;
+    padding: 1px 8px;
+}
+
+#p1{
+    color: #fff;
+    font-weight: bold;
+}
+#p2{
+    color: #afafaf;
+    font-size: 12px;
+}
+
+
+#textdiv3{
+    border: 1px solid #74747471;
+    width: 325px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 0 4px #747474;
+}
+#textdiv3 img {
+    width: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+#txt4 {
+    padding: 10px 20px;
+    border: none;
+}
+
+#textdiv3 button {
+    background-color: #4a98e8;
+}
+
+#textdiv3 button {
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+/* ----------challenge--------- */
+#friends{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+}
+.friend-card{
+    display: inline-block;
+    width: 150px;
+    border: none;
+    box-shadow: 0 0 10px #747474;
+    margin: 0 10px;
+}
+.img img{
+    width: 150px;
+    height: 200px;
+}
+.info{
+    margin: 5px;
+}
+.p1{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+.p2{
+    color: #74747477;
+    margin: 0;
+}
+.add{
+    background-color: #3875e9;
+    border: none;
+    color: #fff;
+    margin: 0 5px;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+#google {
+
+    text-align: center;
+    height: 300px;
+    border-radius: 20px;
+}
+
+#google img {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 20%;
+}
+
+#txt3 {
+    display: block;
+    margin: 20px auto;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    width: 40%;
+    box-shadow: 0 2px 5px #747474;
+}
+
+#btns button{
+    border: none;
+    margin: 0 40px;
+    cursor: pointer;
+}

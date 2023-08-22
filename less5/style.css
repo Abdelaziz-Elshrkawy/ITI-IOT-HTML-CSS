@@ -1,0 +1,159 @@
+#a5 p{
+    font-family:  Tahoma;
+    font-weight: bold;
+}
+div{
+    margin-bottom: 25px;
+    border: 1px dashed rgba(0, 128, 0, 0.219);
+    padding: 5px;
+}
+#b5{
+    font-family: Arial;
+}
+#b5 #p1{
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 23px;
+    margin-bottom: 0;
+}
+#b5 #p2{
+    color: red;
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+
+
+#c5{
+    font-family: verdana;
+}
+#c5 #p1{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#c5 #p2{
+    color: #767676;
+    font-weight: bold;
+}
+#c5 #p3{
+    width: 50%;
+}
+#c5 button{
+    background-color: #377e21;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+
+
+#d5{
+    text-align: center;
+    font-family: Arial;
+    width: 80%;
+}
+#d5 #p1{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+#d5 a{
+    text-decoration: none;
+}
+
+
+/* ---------------challenge--------------- */
+#e5, #f5, #g5{
+    font-family: arial;
+}
+
+#e5{
+    text-align: center;
+}
+span{
+    display: block;
+}
+#e5 #s1, #e5 #s2, #e5 #s3{
+    font-weight: bold;
+}
+#e5 #s1{
+    color: orange;
+    font-size: 13px;
+    
+}
+#e5 #s2{
+    font-size: 20px;
+}
+#e5 #s3{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+#e5 #s4{
+    color: #474747;
+}
+#e5 button{
+    background-color: #2f6fdb;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+
+
+#f5 #s1{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+#f5 #s2{
+    display: inline;
+    color: #747474;
+    font-size: 13px;
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+#f5 #s3{
+    color: #5b925f;
+    margin: 8px 0;
+    font-size: 13px;
+}
+
+#f5 #s4{
+    font-size: 14px;
+    color: #747474;
+}
+
+#f5 #s5{
+    display: inline;
+    color: red;
+}
+
+
+
+#g5 #s1{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#g5 #s2{
+    display: inline-block;
+    font-weight: normal;
+    color: #747474;
+    padding: 0 5px;
+}
+#g5 #s4{
+    margin-top: 10px;
+}
+#g5 #s5{
+    display: inline-block;
+    color: #62a6eb;
+    padding: 0 3px;
+}

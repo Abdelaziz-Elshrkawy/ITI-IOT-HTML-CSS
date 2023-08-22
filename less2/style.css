@@ -1,0 +1,54 @@
+button{
+    cursor: pointer;
+    border: none;
+    padding: 8px 12px;
+}
+#request{
+    background-color: #000;
+    color: #fff;
+}
+#cart{
+    background-color: #f9d84c;
+    border-radius: 25px;
+}
+#sign{
+    background-color: #54a259;
+    
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: #fff;
+}
+#started{
+    background-color: #7353ac;
+    padding: 8px 12px;
+    border-radius: 3px;
+    color: #fff;
+}
+#download{
+    border: 1px #8e949a solid;
+    color: #5e6266;
+    border-radius: 3px;
+}
+#apply{
+    background-color: #2d63bc;
+    color: #fff;
+    border-radius: 25px;
+}
+#save{
+    color: #2d63bc;
+    border: 1px #2d63bc solid;
+    border-radius: 25px;
+    padding: 8px 20px;
+}
+/* ----------------------------\/\/\/challenge part\/\/\/----------------------------- */
+#buy{
+    background-color: #f2a842;
+    border-radius: 25px;
+    padding: 8px 20px;
+}
+#stock{
+    color: #3b8624;
+}
+#nike{
+    font-weight: bold;
+}

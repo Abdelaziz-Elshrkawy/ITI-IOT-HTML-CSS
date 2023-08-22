@@ -1,0 +1,90 @@
+.textdiv {
+  width: 325px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 8px;
+}
+
+.textdiv img {
+  width: 50px;
+  border-radius: 50%;
+  vertical-align: sub;
+}
+
+.textdiv button {
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  background-color: #4a98e8;
+}
+
+.textdiv .txt {
+  display: inline-block;
+}
+.textdiv .txt p {
+  margin: 0;
+  margin-left: 15px;
+}
+.btn {
+  display: inline-block;
+  margin-left: 40%;
+}
+
+.video img {
+  width: 120px;
+}
+.video,
+.vtxt {
+  display: inline-block;
+}
+
+.des {
+  font-weight: bold;
+}
+.ch,
+.views {
+  color: #747474b9;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+
+
+#friends{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+}
+.friend-card{
+    display: inline-block;
+    width: 150px;
+    border: none;
+    box-shadow: 0 0 10px #747474;
+    margin: 0 10px;
+}
+.img img{
+    width: 150px;
+    height: 200px;
+}
+.info{
+    margin: 5px;
+}
+.p1{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+.p2{
+    color: #74747477;
+    margin: 0;
+}
+.add{
+    background-color: #3875e9;
+    border: none;
+    color: #fff;
+    margin: 0 5px;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}

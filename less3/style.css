@@ -1,0 +1,86 @@
+button{
+    cursor: pointer;
+    border: none;
+    padding: 8px 12px;
+}
+#request{
+    background-color: #000;
+    color: #fff;
+}
+#request:hover{
+    opacity: 0.7;
+}
+#cart{
+    background-color: #f9d84c;
+    border-radius: 25px;
+}
+#cart:hover{
+    background-color: #f4c100;
+}
+#sign{
+    background-color: #54a259;
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: #fff;
+}
+#sign:hover{
+    box-shadow: 0 2px 5px #0000005b;
+}
+#started{
+    background-color: #7353ac;
+    padding: 8px 12px;
+    border-radius: 3px;
+    color: #fff;
+}
+#started:hover{
+    background-color: #573982;
+}
+#download{
+    border: 1px #8e949a solid;
+    color: #5e6266;
+    border-radius: 3px;
+}
+#download:hover{
+    background-color: #606970;
+    color: #fff;
+}
+#apply{
+    background-color: #2d63bc;
+    color: #fff;
+    border-radius: 25px;
+}
+#apply:hover{
+    background-color: #013877;
+}
+#save{
+    color: #2d63bc;
+    border: 1px #2d63bc solid;
+    border-radius: 25px;
+    padding: 8px 20px;
+}
+#save:hover{
+    background-color: #ddecfd;
+    border: 2px #2d63bc solid;
+}
+/* ----------------------------\/\/\/challenge part\/\/\/----------------------------- */
+#buy{
+    background-color: #f2a842;
+    border-radius: 25px;
+    padding: 8px 20px;
+}
+#buy:hover{
+    background-color: #d66c01;
+}
+#stock{
+    color: #3b8624;
+}
+#nike{
+    font-weight: bold;
+}
+a:hover{
+    color: #bd4f2d;
+}
+
+#cart:active, #buy:active{
+    opacity: 0.5;
+}
