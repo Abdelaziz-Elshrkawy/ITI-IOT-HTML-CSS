@@ -6,7 +6,7 @@ body {
   grid-template-rows: auto;
 }
 #img {
-  height: 100px;
+  height: 100%;
   overflow: hidden;
   border-radius: 10px;
 }
