@@ -1,1 +1,1 @@
-# HTML & CSS Exercises for ITI IOT Track intack 43
+# HTML & CSS Exercises for ITI IOT Track intake 43
