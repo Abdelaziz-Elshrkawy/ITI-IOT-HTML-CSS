@@ -1,0 +1,148 @@
+body {
+  background-color: #149b1b;
+}
+#container {
+  display: grid;
+  grid-template-rows: auto;
+}
+#img {
+  height: 100px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+#img img {
+  width: 100%;
+}
+
+#nav {
+  position: sticky;
+  display: grid;
+  grid-template-columns: 120px 4fr 2fr;
+  background-color: #a8a5a273;
+  margin: 10px 0;
+  border-radius: 5px;
+  /*    position: fixed;
+    width: 100%; */
+}
+
+#nav-img img {
+  width: 70%;
+  border-radius: 50%;
+  padding: 5px;
+}
+nav {
+  padding: 0 20px;
+  border-radius: 10px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 20px 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #10ccfc;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+#nav-btns {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+#nav-btns button {
+  padding: 20px;
+  margin-left: 10px;
+  border-radius: 20px;
+  background-color: black;
+  font-size: 1.5vw;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+#nav-btns button:hover {
+  opacity: 0.7;
+  box-shadow: 0 0 10px #000;
+}
+#nav-btns button:active {
+  opacity: 1;
+  box-shadow: none;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: 1fr 4fr 5px;
+  column-gap: 5px;
+}
+#sidebar,
+#cards {
+  border-radius: 5px;
+}
+#sidebar {
+  background-color: rgb(255, 131, 131);
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  color: #fff;
+  padding: 8px;
+}
+#sidebar p {
+  background-color: rgba(76, 0, 130, 0.753);
+  padding: 5px;
+  border-radius: 5px;
+}
+#cards {
+  background-color: rgb(101, 101, 250);
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 8px;
+  padding: 8px;
+}
+.card {
+  background-color: cadetblue;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+#footer {
+  margin-top: 25px;
+  background-color: #566076;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+@media screen and (max-width: 1025px) {
+  nav ul li {
+    margin: 10px 15px;
+  }
+
+  nav ul li a {
+    font-size: 1.5em;
+  }
+  #nav-btns button {
+    padding: 5px;
+    margin: 2px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  nav ul li {
+    margin: 5px 5px;
+  }
+  nav ul li a {
+    font-size: 15px;
+  }
+}
