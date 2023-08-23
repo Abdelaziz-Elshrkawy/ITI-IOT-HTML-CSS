@@ -6,7 +6,6 @@ body {
   grid-template-rows: auto;
 }
 #img {
-  height: 100%;
   overflow: hidden;
   border-radius: 10px;
 }
@@ -15,13 +14,13 @@ body {
 }
 
 #nav {
-  position: sticky;
   display: grid;
   grid-template-columns: 120px 4fr 2fr;
   background-color: #a8a5a2be;
   margin: 10px 0;
   border-radius: 5px;
   position: sticky;
+  z-index: 999;
   top: 0;
   /*    position: fixed;
     width: 100%; */
@@ -77,31 +76,34 @@ nav ul li a:hover {
   box-shadow: none;
 }
 
-#content {
-  display: grid;
-  grid-template-columns: 1fr 4fr 5px;
-  column-gap: 5px;
-}
 #sidebar,
 #cards {
   border-radius: 5px;
 }
 #sidebar {
   background-color: rgb(255, 131, 131);
-  height: 100%;
-  display: grid;
-  grid-template-columns: 1fr;
   color: #fff;
-  padding: 8px;
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 100px;
 }
 #sidebar p {
   background-color: rgba(76, 0, 130, 0.753);
   padding: 5px;
   border-radius: 5px;
 }
+#footer,#cards, #img{
+  margin-left: 200px;
+  width: 83%;
+}
 #cards {
   background-color: rgb(101, 101, 250);
-  height: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 10px;
