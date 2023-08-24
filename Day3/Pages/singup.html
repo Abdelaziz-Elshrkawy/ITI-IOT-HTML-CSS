@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" href="../CSS/login.css">
+</head>
+</head>
+
+<body>
+  <div id="nav">
+    <div id="nav-img">
+      <img src="https://th.bing.com/th/id/OIP.IOGGKcmJMYKPkMuimQDLnwHaHv?pid=ImgDet&rs=1" alt="img2" />
+    </div>
+    <nav>
+      <div id="links">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+        </ul>
+      </div>
+      <div id="btns">
+        <button><a href="../Pages/login.html">Login</a></button>
+      </div>
+    </nav>
+  </div>
+  <div id="form-div">
+    <form action="../Pages/login.html">
+      <div id="username">
+        <label for="user name">Username</label>
+        <input type="text" name="username" required id="username" minlength="8">
+      </div>
+      <div id="email">
+        <label for="email">Email</label>
+        <input type="text" name="email" required id="email">
+      </div>
+      <div id="password">
+        <label for="password">Password</label>
+        <input type="password" name="password" required id="password" minlength="10">
+      </div>
+      <div id="bdate">
+        <label for="bdate">Birth Date</label>
+        <input type="date" name="bdate" required id="bdate">
+      </div>
+      <div id="phone">
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" required id="phone">
+      </div>
+      <div id="age">
+        <label for="age">Age</label>
+        <input type="number" name="age" required id="age" maxlength="2">
+      </div>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+
+</html>

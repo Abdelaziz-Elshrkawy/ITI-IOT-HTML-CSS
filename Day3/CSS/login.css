@@ -1,0 +1,43 @@
+#form-div {
+  padding-top: 10%;
+}
+#form-div form {
+  background-color: rgba(56, 24, 78, 0.486);
+  padding-top: 1%;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  height: 30%;
+  border-radius: 10px;
+}
+
+#username,
+#password {
+  margin: auto;
+}
+
+#form-div form input {
+  display: inline-block;
+  margin: 10px auto;
+  padding: 10px;
+  border: none;
+  background-color: rgb(13, 119, 119);
+  border-radius: 10px;
+}
+#form-div form input[type="submit"] {
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+#form-div form label {
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+}
+
+#form-div form input[type='date']{
+    font-size: 1.5em;
+}
